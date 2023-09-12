@@ -30,7 +30,7 @@ a{
     padding: 8px;
 }
 
-h2{
+h2, h1{
     margin: 0;
 }
 
@@ -68,4 +68,16 @@ button{
     color: #F9FAF8;
     padding: 6px 18px;
     border: none;
+}
+
+.wrap-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrap-main .title{
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 24px 0;
 }
