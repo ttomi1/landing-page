@@ -1,3 +1,7 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
 body{
     margin: 0;
     display: flex;
@@ -68,16 +72,119 @@ button{
     color: #F9FAF8;
     padding: 6px 18px;
     border: none;
+    font-weight: 900;
 }
 
 .wrap-main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 64px;
 }
 
 .wrap-main .title{
     font-size: 36px;
     font-weight: bolder;
-    padding: 24px 0;
+    
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    padding: 18px 0;
+    gap: 16px;
+}
+
+.cards p{
+    margin: 0;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    flex-basis: 200px;
+    text-align: center;
+}
+
+.card img{
+    width: 100px;
+    height: 100px;
+    border: 4px solid rgb(30, 147, 201);
+    border-radius: 6px;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #E5E7EB;
+    padding: 48px 350px;
+    gap: 24px;
+}
+
+.quote .text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+}
+
+.quote .author{
+    align-self: flex-end;
+    margin: 0;
+    font-weight: bolder;
+}
+
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 20px;
+}
+.text{
+    color:#E5E7EB ;
+}
+
+.action .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 48px;
+    background-color: #3882F6;
+    border-radius: 6px;
+    border: 4px solid rgb(30, 147, 201);
+    
+}
+.infof h2{
+    font-weight: 900;
+    margin: 0;
+}
+
+.infof{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.text .infof p{
+    color: #E5E7EB;
+    font-weight: 550;
+    margin: 0;
+}
+
+.text button{
+    border: 2px solid white;
+    margin-left: 48px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 32px;
 }
